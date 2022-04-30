@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@import url("container.css");
+@import url("avtar.css");
+@import url("button.css");
+@import url("banner.css");
+@import url("card.css");
+
+body {
+	font-family: 'Monserrat', sans-serif;
+	font-size: 18px;
+	margin:0px;
+}
+h1,h2,h4{
+	font-family: 'Monserrat', sans-serif;
+	font-weight: bold;
+}
+h3{
+	font-family: 'Monserrat', sans-serif;
+	font-weight: bold;
+	color: #F2D987;
+
+}
+a {
+	text-decoration: none;
+}
+
+.card-white {
+    background-color: #EDF2F6;
+    padding: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 50%);
+    border-radius: 4px;
+    margin: 20px 150px;
+    text-align: center;
+}
+.card-beige {
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin: 20px 150px;
+    text-align: center;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.img-circle {
+	border-radius : 50%
+}
